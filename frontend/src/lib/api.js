@@ -113,5 +113,3 @@ export const reportes = {
   ctaCteClientes: (params) => api.get('/api/reportes/cuenta-corriente-clientes', { params }),
   cajaDiaria: (params) => api.get('/api/reportes/caja-diaria', { params }),
 };
-
-export default api;
